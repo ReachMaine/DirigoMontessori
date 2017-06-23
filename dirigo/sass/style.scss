@@ -17,7 +17,17 @@ Version: 1.2
 
 }
 /*  header stuff - here */
-
+// the above content widget area {
+#reach-above-content-wrap {
+	background-color: $top-content-bkg;
+	#reach-above-content {
+		padding-top: 10px;
+		//padding-bottom: 10px;
+		.widget {
+			margin-bottom: 10px;
+		}
+	}
+}
 /*** styling of content */
 
 /** sidebar

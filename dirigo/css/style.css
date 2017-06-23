@@ -54,6 +54,13 @@ input[type="submit"] {
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
+#reach-above-content-wrap {
+  background-color: #fff3b4; }
+  #reach-above-content-wrap #reach-above-content {
+    padding-top: 10px; }
+    #reach-above-content-wrap #reach-above-content .widget {
+      margin-bottom: 10px; }
+
 /*** styling of content */
 /** sidebar
 
