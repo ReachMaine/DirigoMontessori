@@ -60,6 +60,13 @@ input[type="submit"] {
     padding-top: 10px; }
     #reach-above-content-wrap #reach-above-content .widget {
       margin-bottom: 10px; }
+    #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar {
+      display: flex;
+      justify-content: space-around; }
+      #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar li:before {
+        content: none; }
+      #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar li {
+        display: inline-flex; }
 
 /*** styling of content */
 /** sidebar

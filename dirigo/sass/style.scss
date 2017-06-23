@@ -26,6 +26,19 @@ Version: 1.2
 		.widget {
 			margin-bottom: 10px;
 		}
+		.widget.widget_nav_menu {
+			#menu-top-bar { // ul
+				display: flex;
+				justify-content: space-around;
+				li:before {
+					content: none;
+				}
+				li {
+					display: inline-flex;
+				}
+
+			}
+		}
 	}
 }
 /*** styling of content */
