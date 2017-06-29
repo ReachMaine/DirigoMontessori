@@ -19,8 +19,28 @@
 
 }
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
+
 	// hide-mobile available from tatsu
+}
+@media only screen and (min-width: 768px)  {
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) { // mobile 480
+}
+
+@media only screen and (max-width: 479px) { // small  mobile
+		#reach-above-content-wrap {
+			#reach-above-content {
+				.widget.widget_nav_menu {
+					#menu-top-bar { // ul
+						text-align: center;
+						li {
+							display: block;
+							padding-left: 0px;
+						}
+					} // ul
+				} // .widget.widget_nav_menu
+			} //#reach-above-content
+		}  // #reach-above-content-wrap
 }

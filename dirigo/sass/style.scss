@@ -28,19 +28,21 @@ Version: 1.2
 		}
 		.widget.widget_nav_menu {
 			#menu-top-bar { // ul
-				display: flex;
-				justify-content: space-around;
+				//display: flex;
+				//justify-content: space-around;
+				text-align: right;
 				li:before {
 					content: none;
 				}
 				li {
-					display: inline-flex;
+					//display: inline-flex;
+					display: inline-block;
+					margin-bottom: 0px;
 				}
-
-			}
-		}
-	}
-}
+			} // ul
+		} // .widget.widget_nav_menu
+	} //#reach-above-content
+} // #reach-above-content-wrap
 /*** styling of content */
 
 /** sidebar

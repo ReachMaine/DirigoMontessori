@@ -61,12 +61,12 @@ input[type="submit"] {
     #reach-above-content-wrap #reach-above-content .widget {
       margin-bottom: 10px; }
     #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar {
-      display: flex;
-      justify-content: space-around; }
+      text-align: right; }
       #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar li:before {
         content: none; }
       #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar li {
-        display: inline-flex; }
+        display: inline-block;
+        margin-bottom: 0px; }
 
 /*** styling of content */
 /** sidebar
@@ -84,3 +84,9 @@ input[type="submit"] {
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (max-width: 479px) {
+  #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar {
+    text-align: center; }
+    #reach-above-content-wrap #reach-above-content .widget.widget_nav_menu #menu-top-bar li {
+      display: block;
+      padding-left: 0px; } }
