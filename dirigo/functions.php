@@ -15,4 +15,5 @@
 
   require_once(get_stylesheet_directory().'/custom/branding.php');
   require_once(get_stylesheet_directory().'/custom/bottom-CTA.php');
+  require_once(get_stylesheet_directory().'/custom/oshine.php');
 ?>

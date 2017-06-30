@@ -1,15 +1,15 @@
 /* standard Reach styling of Oshin */
 .title-module-wrap.page-title-module-custom {
-	padding: 10px 0px;
+	padding: 30px 0px 10px 0px;
 }
-.left-sidebar-page,
-.right-sidebar-page,
+#content.left-sidebar-page,
+#content.right-sidebar-page,
 .no-sidebar-page .be-section-pad:first-child,
 .page-template-page-940-php #content,
 .no-sidebar-page #content-wrap,
 .portfolio-archives.no-sidebar-page #content-wrap {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .tatsu-module {
   margin-bottom: 15px;
@@ -34,4 +34,16 @@ input[type="submit"] {
 	letter-spacing: 1px;
 	font-weight: bold;
 	cursor: pointer;
+}
+.style1-blog .article-details, .style5-blog .article-details, .style6-blog .article-details {
+	padding-top: 0px;
+	padding-left: 5px;  // so that scripty fonts show.
+}
+article.blog-post.element {
+	margin-bottom: 35px;
+	.blog-separator {
+		hr.separator {
+			margin-top: 10px;
+		}
+	}
 }
