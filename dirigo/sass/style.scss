@@ -55,6 +55,21 @@ Version: 1.2
 .pagination.secondary_text {
 	display: flex;
 }
+// table press styling
+.tablepress.dms-table-green-header { // color table header row
+	border: 1px solid #ddd;
+	.odd td {
+		background-color: $light-tan;
+	}
+	thead th  {
+		background-color: $dusty-green;
+	}
+}
+.tablepress.dms-table-cols-centered { // center columns (not column-1)
+		.column-2, .column-3, .column-4 {
+			text-align: center;
+		}
+}
 
 /** sidebar */
 .sidebar-widgets {

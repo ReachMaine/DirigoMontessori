@@ -85,6 +85,16 @@ article.blog-post.element {
 .pagination.secondary_text {
   display: flex; }
 
+.tablepress.dms-table-green-header {
+  border: 1px solid #ddd; }
+  .tablepress.dms-table-green-header .odd td {
+    background-color: #f9f6f1; }
+  .tablepress.dms-table-green-header thead th {
+    background-color: #dbe2cb; }
+
+.tablepress.dms-table-cols-centered .column-2, .tablepress.dms-table-cols-centered .column-3, .tablepress.dms-table-cols-centered .column-4 {
+  text-align: center; }
+
 /** sidebar */
 .sidebar-widgets .widget_categories h6,
 .sidebar-widgets .widget_archive h6 {
