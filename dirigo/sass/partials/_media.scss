@@ -19,7 +19,10 @@
 
 }
 @media only screen and (max-width: 767px) { // mobile - mobile menu shows here.
-
+	.title-module-wrap.page-title-module-custom .page-title-custom { // page titles at mobile
+		font-size: 2em;
+		line-height: 1.2em;
+	}
 	// hide-mobile available from tatsu
 }
 @media only screen and (min-width: 768px)  {

@@ -50,10 +50,19 @@ Version: 1.2
 
 
 /*** styling of content */
-
+.dms-tan-border .tatsu-column-inner {
+	border: 1px solid $light-tan;
+}
 // blog
 .pagination.secondary_text {
 	display: flex;
+}
+// imported  captions in tables
+.blog-post .post-content table {
+	max-width: 320px;
+	td img {
+		margin: auto;
+	}
 }
 // table press styling
 .tablepress.dms-table-green-header { // color table header row
@@ -70,7 +79,13 @@ Version: 1.2
 			text-align: center;
 		}
 }
+// contact form 7
+.wpcf7-response-output.wpcf7-mail-sent-ok {
+	color: $dark-brown;
+	background-color: $warm-tan ;
+	font-weight: bold;
 
+}
 /** sidebar */
 .sidebar-widgets {
 	.widget_categories,
