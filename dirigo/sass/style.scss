@@ -57,6 +57,15 @@ Version: 1.2
 .pagination.secondary_text {
 	display: flex;
 }
+// hide the hover color & icon on galleries {
+.portfolio-all-wrap .portfolio {
+	.portfolio-overlay-icon {
+		background: none;
+	}
+	.portfolio-container .thumb-bg {
+		background-color: transparent!important;
+	}
+}
 // imported  captions in tables
 .blog-post .post-content table {
 	max-width: 320px;
