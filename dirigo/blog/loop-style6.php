@@ -28,9 +28,14 @@ $post_format = get_post_format();
 							echo '</div>';
 							get_template_part( 'content', $post_format );
 						else :
-							echo '<div class="special-subtitle post-date"><a href="'.get_permalink().'" >'.get_the_date().'</a></div>';
+
+								echo '<div class="special-subtitle post-date"><a href="'.get_permalink().'" >'.get_the_date().'</a></div>';
 							if(get_the_title(get_the_ID())) {
-								echo '<h5 class="post-title"><a href="'.get_permalink(get_the_ID()).'">'.get_the_title(get_the_ID()).'</a></h5>';
+								if ( is_single() ) {
+									echo '<h1 class="post-title"><a href="'.get_permalink(get_the_ID()).'">'.get_the_title(get_the_ID()).'</a></h1>';
+								} else {
+									echo '<h5 class="post-title"><a href="'.get_permalink(get_the_ID()).'">'.get_the_title(get_the_ID()).'</a></h5>';
+								}
 							}
 						endif;
 					?>
