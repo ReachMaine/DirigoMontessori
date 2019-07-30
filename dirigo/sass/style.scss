@@ -98,6 +98,12 @@ Version: 1.2
 	font-weight: bold;
 
 }
+#comments {
+	.nocomments {
+		display: none;
+	}
+}
+
 /** sidebar */
 .sidebar-widgets {
 	.widget_categories,

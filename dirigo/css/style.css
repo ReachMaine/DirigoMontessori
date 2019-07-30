@@ -116,6 +116,9 @@ article.blog-post.element {
   background-color: #bc9e77;
   font-weight: bold; }
 
+#comments .nocomments {
+  display: none; }
+
 /** sidebar */
 .sidebar-widgets .widget_categories h6,
 .sidebar-widgets .widget_archive h6 {
